@@ -1,0 +1,62 @@
+body.index
+{
+    background:url("../img/IrF.gif");
+}
+body.index .container{
+    background-color: #c1c1c11a;
+}
+body.index h1
+{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 0 0 28px;
+    text-shadow: 0 0 5px;
+    background-color: #16194657;
+}
+::placeholder
+{
+    color: #0d6dfd98 !important;
+}
+
+.home-message
+{
+    background: #0e137f21;
+    border-top-right-radius: 190px;
+    border-top-left-radius: 190px;
+    padding: 19px;
+    box-shadow: 0 0 26px #242472;
+}
+.main-home-message
+{
+    text-shadow: 0 0 6px white;
+}
+.userNameInHome
+{
+    text-shadow: 0 0 5px;
+}
+
+#home-logout
+{
+    right: -150px;
+    transition: 1s;
+}
+#home-logout.open-to-logout
+{
+    right: 0px;
+    transition: 1s;
+}
+
+.fa-gear
+{
+    cursor: pointer;
+}
+#logout.text-danger
+{
+    cursor: pointer;
+    transition: all .5s;
+}
+#logout.text-danger:hover
+{
+    color: #ff0018 !important;
+    transition: all .5s;
+}
